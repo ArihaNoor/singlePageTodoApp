@@ -1,0 +1,78 @@
+body {
+    background-color: #f2f2f2;
+  }
+  #main {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  #input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+  
+  #btn-add {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+  
+  #btn-add:hover {
+    background-color: #45a049;
+  }
+  #table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  tbody td {
+    padding: 12px;
+  }
+  #btn-edit,
+  #btn-delete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  #btn-edit i,
+  #btn-delete i {
+    color: #333333;
+  }
+  
+  #btn-edit:hover i {
+    color: #0099ff;
+  }
+  
+  #btn-delete:hover i {
+    color: #ff0000;
+  }
+  
